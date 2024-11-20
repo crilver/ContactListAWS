@@ -1,0 +1,32 @@
+body{
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    & button{
+        padding: 10px;
+        background-color:darksalmon;
+        border: none;
+        border-radius: 10px;
+        font-size: larger;
+        font-weight: 700;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        cursor: pointer;
+
+        &:hover{
+            background-color:rgb(233, 141, 111);
+        }
+        &:active{
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
+        }
+    }
+}
+
